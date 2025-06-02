@@ -60,6 +60,29 @@ In medical diagnoses, missing a true positive (i.e., predicting no disease when 
 
 ---
 
+## 🌳 Decision Tree Classifier
+
+### ✅ Max Depth vs Recall Curve
+Shows how recall varies with tree depth:  
+![Validation Curve](./Screenshot%202025-06-02%20125820.png)
+
+### 🌲 Full Decision Tree
+Used `plot_tree()` and Graphviz for visualization:  
+![Decision Tree](./Screenshot%202025-06-02%20125841.png)
+
+### ✂️ Pruning Performance (ccp_alpha vs Recall)
+Helps choose best alpha for pruning:  
+![Pruning Curve](./Screenshot%202025-06-02%20125828.png)
+
+---
+
+## 🌲 Random Forest Classifier
+
+### ⭐ Feature Importance
+Top features influencing prediction:  
+![Feature Importance](./Screenshot%202025-06-02%20125855.png)
+
+
 ## 🧠 Future Work
 - Try XGBoost or LightGBM.
 - Add ROC/AUC evaluation.
